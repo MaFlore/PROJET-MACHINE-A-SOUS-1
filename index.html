@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body id="body">
+    <br>
+    <h1 id="bienvenue">BIENVENUE CHER UTILISATEUR DANS NOTRE CASINO !</h1>
+    <div id="page">
+        <br>
+        <div id="info">
+            <h3 id="resultat"></h3>
+        </div>
+        <h1 id="charge">Traiment du requete en cours ...</h1>
+        <h2 id="gain" style="text-align:center">Vous avez 25000 F CFA actuellement sur votre compte !</h2>
+        <h2 id="tentative" style="text-align:center">
+            </h3>
+            <form id="form" method="GET">
+                <input name="button" type="button" class="btn btn-info" id="button" onclick="jouer();" value="JOUER">
+            </form>
+    </div>
+    </div>
+</body>
+
+<script type="text/javascript">
+    var gain = 25000;
+    var nombreTentative = 0;
+</script>
+<script type="text/javascript" src="fonctionsAjax.js"></script>
+<script type="text/javascript" src="fonctionsMachine.js"></script>
+
+</html>

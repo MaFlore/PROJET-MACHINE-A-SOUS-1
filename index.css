@@ -1,0 +1,45 @@
+    #info {
+        text-align: center;
+        visibility: hidden;
+    }
+    
+    #form {
+        text-align: center;
+        padding: 100px 5%;
+    }
+    
+    #bienvenue {
+        text-align: center;
+    }
+    
+    #gain {
+        visibility: visible;
+    }
+    
+    #resultat {
+        visibility: visible;
+    }
+    
+    #tentative {
+        visibility: visible;
+    }
+    
+    #charge {
+        padding: 20px;
+        visibility: hidden;
+        text-align: center;
+    }
+    
+    #button {
+        background-color: #b9da42;
+        border: none;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 12px;
+    }
